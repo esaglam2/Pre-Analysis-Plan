@@ -858,7 +858,7 @@ points(
 # Add a horizontal red line at p-value = 0.05 (significance threshold)
 abline(h = 0.05, col = "green")  # Dashed red line at 0.05
 
-# Optionally, you can add legends or other customizations to enhance the plot.
+# I add legends or other customizations to enhance the plot.
 legend("topleft", legend = c("T-Stat", "Influential Point Resistant"), 
        col = c("blue", "red"), pch = c(1, 2), lty = 1)
 
